@@ -1,10 +1,10 @@
-package com.zeke.spring.ThymeleafEmployees.service;
+package com.zeke.spring.ThymeleafEmployees.dao;
 
 import java.util.List;
 
 import com.zeke.spring.ThymeleafEmployees.entity.Employee;
 
-public interface EmployeeService {	
+public interface EmployeeDAO {
 	
 	public List<Employee> findAll();
 	

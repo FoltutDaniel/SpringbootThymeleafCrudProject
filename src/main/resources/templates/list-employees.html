@@ -13,7 +13,8 @@
     <div class="container">
         <h1>Employee Directory</h1>
         <hr>
-
+		<a th:href="@{/employees/showFormForAdd}"
+			class="btn btn-primary btn-sm mb-3">Add Employee</a>
         <table class="table table-bordered table-striped">
             <thead class="thead-dark">
                 <tr>
@@ -24,9 +25,9 @@
             </thead>
             <tbody>
                 <tr th:each="tempEmployee : ${employees}">
-                    <td th:text="${tempEmployee.firstName"></td>
-                    <td th:text="${tempEmployee.firstName"></td>
-                    <td th:text="${tempEmployee.firstName"></td>
+                    <td th:text="${tempEmployee.firstName}"></td>
+                    <td th:text="${tempEmployee.firstName}"></td>
+                    <td th:text="${tempEmployee.firstName}"></td>
                 </tr>
 
             </tbody>
