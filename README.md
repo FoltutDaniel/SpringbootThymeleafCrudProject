@@ -12,4 +12,6 @@
 - Login/Logout system using Spring Security
 - Search bar
 
-## This WebApplication was developed with the knowledge earned in an online Course.
+
+
+#### This WebApplication was developed with the knowledge earned in an online Course.
