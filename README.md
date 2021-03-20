@@ -5,7 +5,7 @@
 
 
 ## Web Application Preview
-![list-employees](/docs/main.png "Employee List")
+![list-employees](/docs/main1.png "Employee List")
 ![add-employee](/docs/save.png "Add Employee")
 
 ### Future improvements:
